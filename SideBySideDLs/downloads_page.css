@@ -20,6 +20,8 @@
 .downloads_ItemListWrapper_1l0Lm {
   order: 3;
   flex: 1;
+  overflow: scroll;
+  height: 88%;
 }
 
 .downloadgraph_HeroAndLogo_3mZ2r {
