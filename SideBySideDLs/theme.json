@@ -1,15 +1,13 @@
 {
-	"name": "Better Download Page",
-	"author": "XikoCat",
-	"target": "Downloads",
-	"version": "v1.0",
-	"description": "Side-By-Side design of the download page to make it easier to see the queue",
-	"manifest_version": 5,
-	"inject": {
-		"downloads_page.css": [
-			"SP"
-		]
-	},
-	"dependencies": {},
-	"patches": {}
+  "name": "Better Download Page",
+  "author": "XikoCat",
+  "target": "Downloads",
+  "version": "v1.1",
+  "description": "Side-By-Side design of the download page to make it easier to see the queue",
+  "manifest_version": 9,
+  "inject": {
+    "downloads_page.css": ["Steam Big Picture Mode"]
+  },
+  "dependencies": {},
+  "patches": {}
 }
