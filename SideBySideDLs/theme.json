@@ -1,13 +1,14 @@
 {
   "name": "Better Download Page",
   "author": "XikoCat",
-  "target": "Downloads",
-  "version": "v1.1",
-  "description": "Side-By-Side design of the download page to make it easier to see the queue",
-  "manifest_version": 9,
+  "version": "v1.2",
+  "manifest_version": 5,
   "inject": {
-    "downloads_page.css": ["Steam Big Picture Mode"]
+    "downloads_page.css": [
+      "SP"
+    ]
   },
   "dependencies": {},
-  "patches": {}
+  "patches": {},
+  "id": "723bec9d-4c27-4cd8-a291-2ebaaa54398c"
 }
