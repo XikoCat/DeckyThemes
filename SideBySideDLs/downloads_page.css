@@ -24,22 +24,40 @@
   flex-direction: row;
 }
 
-/* Local Download */
-/* Child of 1 */
+/*no Idea what this div is for
+always empy? */
 .BasicUI .SEmVpmXrYVl3OxL1sDFTg {
-  flex-basis: 15%;
+  flex-basis: 0.01%;
   width: 67%;
-  overflow: hidden;
+  max-width: 67%;
 }
 
-.SEmVpmXrYVl3OxL1sDFTg:empty {
+/* Local Download */
+/* Child of 1 */
+.BasicUI .E77_ojZbdMlTc1bWOUTC8 {
+  flex-basis: 15%;
+  width: 67%;
+  max-width: 67%;
+
+  display: flex;
+  padding: 0px;
+  align-items: center;
+}
+
+.E77_ojZbdMlTc1bWOUTC8 > div {
+  flex: 1 1 auto;
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+.E77_ojZbdMlTc1bWOUTC8:empty {
   flex-basis: 0.01%;
 }
 
 /* List "Up Next, Scheduled and Next" */
 /* Child of 1*/
 .BasicUI ._1l0LmmqDUXH19SjfELddn7 {
-  flex-basis: 85%;
+  flex-basis: 84.99%;
   width: 67%;
 }
 
@@ -89,26 +107,30 @@ div._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E._2NqL3nV35eJFAu56_Yu-WM {
 .BasicUI ._3mdnpmV9S9u27eB5JFwFNk {
   order: 2;
   width: 100%;
+  max-width: 100%;
+  
   height: 45%;
   padding: 6px 10px 10px 6px;
 
   display: flex;
-  justify-content: unset;
-  flex: unset;
-  max-width: 100%;
+  justify-content: flex-start;
+  
+  flex: 1;
 }
 
 /* Current state of download */
 .BasicUI ._3mdnpmV9S9u27eB5JFwFNk ._3BdWqJYvZfTohY-twD2i6Q {
   margin-bottom: 0px;
   width: 100%;
-  height: 15%
+  height: 15%;
+  flex: 1;
 }
 
 /* Stats Div */
 .BasicUI ._3mdnpmV9S9u27eB5JFwFNk ._3YaPaCx4aNnu27vUVQekia {
   height: 40%;
   align-items:start;
+  flex: 2;
 }
 
 /* Stats Container */
@@ -127,7 +149,8 @@ div._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E._2NqL3nV35eJFAu56_Yu-WM {
 }
 
 .BasicUI ._3mdnpmV9S9u27eB5JFwFNk ._38T9T2x6JLXEkWadD96esD {
-  height: 0%
+  max-height: 10%;
+  flex: 1;
 }
 
 .BasicUI .hGZq446tJ_aWpDLU9rRSM {
@@ -173,4 +196,21 @@ div._1R9r2OBCxAmtuUVrgBEUBw._2E7G8grj_-tgxXbTXs1t2E._2NqL3nV35eJFAu56_Yu-WM {
 ._2pjdgFqp04LlhgtFS0rQn_ {
   position: absolute;
   opacity: 25%;
+}
+
+/*Local Download*/
+._1e0BYXBEHVz8VCU-20jRQB {
+  max-width: 10%;
+}
+
+.WHqhe_U43regmBwEPYX-U {
+  max-width: 50%;
+}
+
+._1IKbaHLvcciS-EMMYx1WVG {
+  max-width: 35%;
+}
+
+.BasicUI .StopTransferButton {
+  padding: 0;
 }
