@@ -1,7 +1,7 @@
 {
   "name": "Better Download Page",
   "author": "XikoCat",
-  "version": "v1.2",
+  "version": "v1.3",
   "manifest_version": 5,
   "inject": {
     "downloads_page.css": [
